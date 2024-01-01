@@ -1,11 +1,11 @@
 ## Commits convention
 
 The commit message should be structured as follows:
-<pre>
+```
 <type>[optional scope]: <description>
 [optional body]
 [optional footer(s)]
-</pre>
+```
 
 ### `<type>`
 Required. One of the following:
@@ -22,11 +22,13 @@ perf|🚀 Performance changes
 test|🚨 Adding or changing tests
 chore|♻️ Clean up changes
 
-Commit message can contain ! to draw attention to breaking change.
+Commit type can contain ! to draw attention to breaking change.
+
 Example: `chore!: drop support for Node 6`
 
 ### `(scope)`
 Optional. Provide additional contextual information.
+
 Expample: `feat(parser): add ability to parse arrays.`
 
 ### `<description>`
@@ -39,4 +41,4 @@ Optional. Short list of changes.
 Optional. Must follow a convention similar to [git trailer format](https://git-scm.com/docs/git-interpret-trailers).
 
 ---
-За основы взяты рекомендации ревьювера [AntLer-24rus](https://gist.github.com/AntLer-24rus/3f8c228694b18104da60eeac12425f2d)
+Based on [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/).
