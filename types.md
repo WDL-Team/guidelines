@@ -22,3 +22,5 @@ When extending an interface with one or more interfaces, these rules apply:
 - You must implement all the required properties from all interfaces.
 - Two interfaces can have the same property if the property has the exact same name and type.
 - If two interfaces have a property with the same name but different types, you must declare a new property such that the resulting property is a subtype of both interfaces.
+
+Итого: функции, классы, компоненты декларируем interface-ами, объекты и пропсы type-ами. Не плодим схожие декларирования, если их можно описать дженериками. ( специально выделил самую важную часть :)
